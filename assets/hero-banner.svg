@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 230" width="100%" height="230">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071426"/>
+      <stop offset="50%" stop-color="#091A33"/>
+      <stop offset="100%" stop-color="#050E1C"/>
+    </linearGradient>
+
+    <radialGradient id="heroGlow" cx="18%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#168BFF" stop-opacity="0.30"/>
+      <stop offset="70%" stop-color="#00E5FF" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#071426" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#16274D"/>
+      <stop offset="30%" stop-color="#168BFF"/>
+      <stop offset="70%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#16274D"/>
+    </linearGradient>
+
+    <linearGradient id="silverText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#E2E8F0"/>
+      <stop offset="75%" stop-color="#C7D0DA"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+
+    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#E2E8F0"/>
+      <stop offset="65%" stop-color="#C7D0DA"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur1"/>
+      <feMerge>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="gridPattern" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#16274D" stroke-width="0.75" stroke-opacity="0.4"/>
+      <circle cx="30" cy="0" r="1" fill="#00E5FF" fill-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="876" height="226" rx="14" fill="url(#bgGrad)"/>
+  <rect x="2" y="2" width="876" height="226" rx="14" fill="url(#gridPattern)"/>
+  <rect x="2" y="2" width="876" height="226" rx="14" fill="url(#heroGlow)"/>
+  <rect x="2" y="2" width="876" height="226" rx="14" fill="none" stroke="url(#borderGrad)" stroke-width="1.5"/>
+
+  <!-- Left Monogram Emblem (Clean, Recognizable 'S') -->
+  <g transform="translate(130, 115)">
+    <circle cx="0" cy="0" r="82" fill="#0A1830" stroke="#168BFF" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="74" fill="none" stroke="#00E5FF" stroke-width="1.2" stroke-dasharray="5 7" opacity="0.6"/>
+    <circle cx="0" cy="0" r="66" fill="#071426" stroke="#16274D" stroke-width="1.5"/>
+    <!-- Recognizable Bold Uppercase S -->
+    <text x="0" y="38" 
+          text-anchor="middle" 
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" 
+          font-size="112" 
+          font-weight="900" 
+          fill="url(#silverGrad)" 
+          stroke="#00E5FF" 
+          stroke-width="2.2" 
+          filter="url(#neonGlow)">S</text>
+  </g>
+
+  <!-- Vertical Divider inside banner -->
+  <line x1="235" y1="45" x2="235" y2="185" stroke="#16274D" stroke-width="1.5"/>
+  <circle cx="235" cy="115" r="3.5" fill="#00E5FF"/>
+
+  <!-- Identity Typography -->
+  <g transform="translate(265, 0)">
+    <!-- Small Category Label -->
+    <rect x="0" y="48" width="138" height="22" rx="4" fill="#0C1B3D" stroke="#1A2B56" stroke-width="1"/>
+    <circle cx="10" cy="59" r="3" fill="#00E5FF"/>
+    <text x="20" y="63" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#00E5FF" letter-spacing="1.5">PORTFOLIO IDENTITY</text>
+
+    <!-- Full Name -->
+    <text x="0" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="url(#silverText)" letter-spacing="2.5">SABARIESH S</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#94A3B8" letter-spacing="0.5">Software Systems Student  |  Exploring AI &amp; Full-Stack Development</text>
+
+    <!-- Tech Accent Tags -->
+    <g transform="translate(0, 168)">
+      <rect x="0" y="0" width="130" height="22" rx="11" fill="#0E1E42" stroke="#168BFF" stroke-width="1"/>
+      <text x="65" y="14.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#00E5FF">Artificial Intelligence</text>
+
+      <rect x="140" y="0" width="88" height="22" rx="11" fill="#0E1E42" stroke="#168BFF" stroke-width="1"/>
+      <text x="184" y="14.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#00E5FF">Full-Stack Dev</text>
+
+      <rect x="238" y="0" width="124" height="22" rx="11" fill="#0E1E42" stroke="#168BFF" stroke-width="1"/>
+      <text x="300" y="14.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#00E5FF">Generative AI &amp; RAG</text>
+
+      <rect x="372" y="0" width="85" height="22" rx="11" fill="#0E1E42" stroke="#168BFF" stroke-width="1"/>
+      <text x="414" y="14.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#00E5FF">LLM Systems</text>
+    </g>
+  </g>
+</svg>
