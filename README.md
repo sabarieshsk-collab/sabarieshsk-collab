@@ -171,7 +171,7 @@ My work spans responsive web applications, distributed backend services, and AI 
   <img src="assets/divider.svg" alt="Divider" width="100%" />
   <br/><br/>
   
-  <img src="assets/logo-silver-s.svg" alt="Monogram Emblem" width="42" height="42" />
+  <img src="assets/logo-silver-s.svg" alt="Energy Portal Emblem" width="42" height="42" />
   
   <p>
     <b>SABARIESH S</b><br/>
@@ -180,3 +180,4 @@ My work spans responsive web applications, distributed backend services, and AI 
   
   <sub>Designed with precision for GitHub • Midnight Navy &amp; Electric Blue</sub>
 </div>
+
