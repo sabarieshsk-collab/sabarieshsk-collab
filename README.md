@@ -33,7 +33,10 @@
 ## 📌 About Me
 
 <div align="center">
-  <img src="assets/about-me-visual.gif" alt="About Me System Telemetry" width="100%" style="max-width: 880px;" />
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/about-me-visual.svg">
+    <img src="assets/about-me-visual.gif" alt="Flowing Energy Waves" width="100%" style="max-width: 880px;" />
+  </picture>
 </div>
 
 <br/>
@@ -44,25 +47,9 @@ My work spans responsive web applications, distributed backend services, and AI 
 
 <br/>
 
-<table width="100%">
-  <tr>
-    <td width="33%" valign="top">
-      <h4 align="left">🎓 Academic Path</h4>
-      <p><b>MSc Software Systems</b><br/>
-      Rigorous curriculum spanning advanced software architecture, algorithmic design, and distributed computational systems.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h4 align="left">🧠 Specialized Focus</h4>
-      <p><b>AI &amp; Full-Stack Systems</b><br/>
-      Architecting practical LLM applications, dense vector RAG pipelines, microservice backends, and responsive user interfaces.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h4 align="left">🛠️ Engineering Approach</h4>
-      <p><b>Pragmatic Engineering</b><br/>
-      Clean code conventions, decoupled service architecture, verified technical execution, and continuous hands-on exploration.</p>
-    </td>
-  </tr>
-</table>
+* 🎓 **Academic Path:** **MSc Software Systems** — spanning advanced software architecture, algorithmic design, and distributed computational systems.
+* 🧠 **Specialized Focus:** **AI & Full-Stack Systems** — architecting practical LLM applications, dense vector RAG pipelines, microservice backends, and responsive user interfaces.
+* 🛠️ **Engineering Approach:** **Pragmatic Engineering** — clean code conventions, decoupled service architecture, verified technical execution, and continuous hands-on exploration.
 
 <br/>
 
