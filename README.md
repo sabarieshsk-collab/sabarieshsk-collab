@@ -202,21 +202,6 @@ My work spans responsive web applications, distributed backend services, and AI 
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/divider.svg">
     <img src="assets/divider.gif" alt="Section Divider" width="100%" />
   </picture>
-</div>
-
-## 📈 Contribution Activity
-
-<div align="center">
-  <img src="https://ghchart.rshah.org/00E5FF/sabarieshsk-collab" alt="SABARIESH S's Contribution Chart" width="100%" style="max-width: 840px;" />
-</div>
-
-<br/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/divider.svg">
-    <img src="assets/divider.gif" alt="Section Divider" width="100%" />
-  </picture>
   <br/><br/>
   
   <img src="assets/logo-silver-s.svg" alt="Energy Portal Emblem" width="42" height="42" />
