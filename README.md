@@ -62,12 +62,6 @@ My work spans responsive web applications, distributed backend services, and AI 
 
 ## 🛠️ Tech Stack
 
-<div align="center">
-  <img src="assets/tech-matrix-visual.gif" alt="Tech Stack Telemetry" width="100%" style="max-width: 880px;" />
-</div>
-
-<br/>
-
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
