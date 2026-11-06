@@ -228,9 +228,6 @@ My work spans responsive web applications, distributed backend services, and AI 
   <img src="assets/logo-silver-s.svg" alt="Energy Portal Emblem" width="42" height="42" />
   
   <p>
-    <b>SABARIESH S</b><br/>
-    <sub>MSc Software Systems • AI &amp; Full-Stack Development</sub>
+    <b>SABARIESH S</b>
   </p>
-  
-  <sub>Designed with precision for GitHub • Midnight Navy &amp; Electric Blue</sub>
 </div>
