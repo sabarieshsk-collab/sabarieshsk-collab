@@ -151,6 +151,14 @@ My work spans responsive web applications, distributed backend services, and AI 
       <p>🔗 <a href="https://github.com/sabarieshsk-collab/pdf-rag-chatbot"><b>View Repository →</b></a></p>
     </td>
   </tr>
+  <tr>
+    <td colspan="2" width="100%" valign="top">
+      <h3>🤖 AI Lead Qualification Agent</h3>
+      <p><b>AI-powered Inbound Lead Qualification Platform</b> — an autonomous qualification and classification workflow utilizing web intelligence and LLMs to evaluate prospect business fit, categorize lead archetypes, and automate personalized responses.</p>
+      <p><b>Tech Stack:</b> <code>n8n</code> • <code>OpenAI</code> • <code>Firecrawl</code> • <code>Gmail</code></p>
+      <p>🔗 <a href="https://github.com/sabarieshsk-collab/AI-Lead-Qualification-Agent"><b>View Repository →</b></a></p>
+    </td>
+  </tr>
 </table>
 
 <br/>
